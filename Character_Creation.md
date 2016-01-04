@@ -41,19 +41,19 @@ The secondary attributes are average combinations of the primary attributes roun
 
 ** Unskilled Action Rule ** Unskilled action rolls always use 2d, are limited to simple actions, are immune to critical success and failure, and are subject to all situational modifiers. Characters may not use the unskilled action rule to perform complex actions. A Complex Action is any action that is composed of two or more simple actions. *Complex Action example: firing an arrow from a bow; knock an arrow, draw, aim, and release. This would require 4 separate dice rolls under the unskilled action rule, one for each of the simple actions. To successfully fire the arrow, the character would have to succeed on all of the rolls in succession for the simple action steps to complete the complex action required to fire a bow. A failed roll would cause the character to start the whole process over from the beginning.*
 
-* **Charisma** (CHA): Personal charm or magnetism, as determined by the health, intelligence, and will of the character.
+* **Charisma** (CHA): Personal charm or magnetism, as determined by the health, and will of the character.
 Average of Willpower and Constitution. (W + C) / 2 (rounded down)
 
-* **Speed** (SPD): The rate of motion or action.
+* **Speed** (SPD): The rate of motion or athletic action.
 Average of Strength and Dexterity. (S + D) / 2 (rounded down)
 
-* **Reflex** (RFX): An automatic response to a simple stimulus which does not require mental processing.
+* **Reflex** (RFX): An automatic response to stimulus which does not require mental processing.
 Average of Dexterity, and Intelligence. (D + I) / 2 (rounded down)
 
-* **Lift** (LFT): To exert the strength for raising or bearing.
+* **Lift** (LFT): To exert the strength for raising, bearing, or pushing.
 Average of Constitution and Strength. (C + S) / 2 (rounded down)
 
-* **Perception** (PER): Conscious understanding of something; to be aware of.
+* **Perception** (PER): Conscious understanding of something to be aware of.
 Average of Intelligence and Willpower. (I + W) / 2 (rounded down)
 
 ## Oddities ##
