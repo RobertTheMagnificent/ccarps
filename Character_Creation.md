@@ -37,24 +37,24 @@ Character rank is the sum of the character's Primary Attributes. After the playe
 * **Willpower** (W): The unwavering strength of will (intention, desire) to carry out one’s wishes.
 
 ## Secondary Attributes ##
-The secondary attributes are average combinations of the primary attributesrounded to the nearest whole number. Once the secondary attribute base is calculated use the skill modifier table to determine the secondary attribute modifier. Skills are based on secondary attributes as are any action rolls where a character does not have a related skill. 
+The secondary attributes are average combinations of the primary attributes rounded down. Once the secondary attribute base is calculated use the skill modifier table to determine the secondary attribute modifier. Skills are based on secondary attributes as are any action rolls where a character does not have a related skill. 
 
-*Note:* Unskilled action rolls always use 2d, are limited to simple actions, are immune to critical success and failure, and are subject to a -6 situational modifier. Characters may not use the unskilled action rule to perform complex actions. A Complex Action is any action that is composed of two or more steps. *Complex Action example: knocking an arrow, drawing, aming, and firing a bow. This would require 4 separate dice rolls under the unskilled action rule. To successfully fire the arrow, the character would have to succeed on all of the rolls for the steps of the complex action. A failed roll would cause the character to start the whole process over from the beginning.*
+** Unskilled Action Rule ** Unskilled action rolls always use 2d, are limited to simple actions, are immune to critical success and failure, and are subject to all situational modifiers. Characters may not use the unskilled action rule to perform complex actions. A Complex Action is any action that is composed of two or more simple actions. *Complex Action example: firing an arrow from a bow; knock an arrow, draw, aim, and release. This would require 4 separate dice rolls under the unskilled action rule, one for each of the simple actions. To successfully fire the arrow, the character would have to succeed on all of the rolls in succession for the simple action steps to complete the complex action required to fire a bow. A failed roll would cause the character to start the whole process over from the beginning.*
 
 * **Charisma** (CHA): Personal charm or magnetism, as determined by the health, intelligence, and will of the character.
-Average of Constitution, Intelligence, and Willpower. (C + I + W) / 3 (rounded)
+Average of Willpower and Constitution. (W + C) / 2 (rounded down)
 
 * **Speed** (SPD): The rate of motion or action.
-Average of Strength and Dexterity. (S + D) / 2 (rounded)
+Average of Strength and Dexterity. (S + D) / 2 (rounded down)
 
 * **Reflex** (RFX): An automatic response to a simple stimulus which does not require mental processing.
-Average of Strength, Dexterity, and Willpower. (S + D + W) / 3 (rounded)
+Average of Dexterity, and Intelligence. (D + I) / 2 (rounded down)
 
 * **Lift** (LFT): To exert the strength for raising or bearing.
-Average of Strength and Willpower. (S + W) / 2 (rounded)
+Average of Constitution and Strength. (C + S) / 2 (rounded down)
 
 * **Perception** (PER): Conscious understanding of something; to be aware of.
-Average of Intelligence and Willpower. (I + W) / 2 (rounded)
+Average of Intelligence and Willpower. (I + W) / 2 (rounded down)
 
 ## Oddities ##
 Oddities may only be taken at character creation. Oddities are used to gain advantages and to make trade off's to provide flexibility and role-play interest in character options, in other words, Oddities add "character" to your characters. Your Game Master may modify a character's Oddities based on role-play events or extraordinary situations. Oddities may make permanent Health changes based on the description of the oddity, or Game Master's discretion.
@@ -64,7 +64,7 @@ The general rule with Oddities is that each Oddity must have a balanced cost and
 ### Basic Oddities ###
 During character creation, there are two Oddities that are reccomended. These are **Wealth** and **Social Influence**. There are no Modifiers with these; instead, they help give characters some "roots" into the game world. If no *Wealth* or *Social Influence* is taken, it is assumed they are Middle Class with no contacts out of the ordinary.
 
-**Wealth** is a measure of a character's accumulation of material value, including things such as property (home, car, horses), finery (cloths, tools, weapons), ect. and defines the character's starting currency according to the Wealth Table. The points spent or given are meant to represent the character's perception of wealth and their ability to move in social circles. A person raised with a filthy rich lifestyle would stand out like a sore thumb on skid row, just as a dirt poor person would at a country club.
+**Wealth** is a measure of a character's accumulation of material value, including things such as property (home, car, horses), finery (cloths, tools, weapons), etc. and defines the character's starting currency according to the Wealth Table. The points spent or given are meant to represent the character's perception of wealth and their ability to move in social circles. A person raised with a filthy rich lifestyle would stand out like a sore thumb on skid row, just as a dirt poor person would at a country club.
 
 ![Wealth and Standing](images/Wealth_and_Standing.png)
 
@@ -78,29 +78,75 @@ During character creation, there are two Oddities that are reccomended. These ar
 * 10 points: Friend
 * 15 points: Confidant
 
+**Speach Impediment** Character has an obvious difficulty speaking. Common impediments include: Studder, Mute, Cluttering (speaks too fast, often running words together.)
+* -50 points: Extreme - Character cannot communicate verbally due to impediment
+* -25 points: Severe - Character has -9 to all deplomacy and influence checks
+* -10 points: Moderate - Character has -3 to all deplomacy and influence checks
+* -5 points: Mild - Character has -1 to all deplomacy and influence checks
+
+**Natural Resistance** (Specify Type) Character is naturally resistant and suffers reduced influence from the specified type. (examples: Poison, Fire/Heat, Acid, etc.)
+* 50 points: Immunity suffer no effect from source type
+* 25 points: Reduce all effect from source type by 6
+* 15 points: Reduce all effect from source type by 3
+* 5 points: Reduce all effect from source type by 1
+
+**Alergy** (Specify Substance) Character suffers negatively from contact with the specified substance. (examples: Nuts, pollen, Shellfish, etc.)
+* -50 points: Extreme - Character will suffer an imediate and life threatening reaction on contact with the Specified substance.
+* -25 points: Severe - Character applies -9 to all target numbers for 3 hours after contact with the Specified substance.
+* -10 points: Moderate - Character applies -3 to all target numbers for 1 hour after contact with the Specified substance.
+* -5 points: Mild - Character applies -1 to all target numbers 20 minutes after contact with the Specified substance.
+
+**High Pain Tolerance**
+* 50 points: Ignore all Mental modifiers, Will not lose unconsiousness from pain or mental trauma.
+* 25 points: Ignore all Mental modifiers due to damage
+* 10 points: Ignore the first 3 points of Mental modifiers due to damage
+* 5 points: Ignore the first 1 point of Mental modifiers due to damage
+
 *Player Note* Further oddities can be found in the world content framework, and in the world content for the adventure you are playing. 
 
 ## Skills ##
-Skills determine what your character can do as well as what they know. Adding one point to a skill is the equivalent of the character experimenting with new ideas, or reading a basic instruction manual, or taking an introductory lesson from one who knows the skill at an advanced level (or higher). This gives the character the ability to use the skill with no special proficiency (and without a super low modifier). 
+Skills determine what your character can do as well as what they know. Adding one point to a skill is the equivalent of the character experimenting with new ideas, or reading a basic instruction manual, or taking an introductory lesson from one who knows the skill at an advanced level or higher. This gives the character the ability to use the skill to perform a complex action with a single die roll. *Using a skill to perform a Complex Action. example: firing an arrow from a bow; knock an arrow, draw, aim, and release. one point in Archery skill would alow the character to make one roll to determine the result of the four simple acctions required to fire an arrow.*  
 
-Each skill has an Attribute associated with it. These attributes are skill requirements; no skill may have points that are greater than the associated attribute's modifier. For example, if your Charisma Modifier is +2, you cannot have more than 2 points in your Reading skill at character creation.
+Each skill has an Attribute associated with it. These attributes are skill requirements; at character creation no skill may have points that are greater than the associated attribute modifier. For example, if your Charisma Modifier is +2, you cannot have more than 2 points in your Intimidate skill at character creation.
 
-Before a character can attempt to use a skill they must apply at least one point to it for it to be useful. Trying to use a skill without any proficiency has a base Modifier of -8 plus the modifier of the ruling Attribute. This makes it possible to attempt a an unskilled action in non-stressful situations. It becomes near impossible when under stress, such as during combat or while moderately injured.
+Before a character can attempt to use a skill they must apply at least one point to it for it to be useful. *To use a skill without any proficiency see Unskilled Action rule under Secondary Attribute section.*
 
 ### Basic Skill List ###
 
-**Acrobatics (RFX)** The performance of extrordinary feats of balance, agility, and motor coordination. Diving, walking on a tight rope or balance beam, swinging on a trapeze, etc.
+#### Martial Arts ####
+**Grappling (LFT)** Grappling includes techniques, maneuvers, and counters used against an opponent in order to gain a physical advantage, escape from, force to submit, or cause injury or death. Grappling does not include striking or the use of weapons.
 
-**Acting (CHA)** The work of an actor or actress, which is a person in thetre, television, film, or any other story telling medium who tells the story by portraying a character and, usually, speaking or singing the written text or play.
+**Street Fighting (SPD)** Street fighting is hand-to-hand combat in public places, between individuals or groups of people using primarily punching, kicking, and throwing attacks. *may include use of weapons of opportunity eg: chair, bottle, dirt, etc.*
 
-**Brawling (LFT)** Basic unarmed, untrained combat.
-* Punch apply brawling Modifier
-* Kick apply brawling Modifier -1
-* Grab, graple, or throw apply brawling Modifier -2 
+**Hand-to-Hand Combat (RFX)** Hand-to-hand combat is any formal discipline of lethal or non-lethal physical confrontation between two or more persons at very short range that does not involve the use of weapons. A Hand-to-hand combat discipline is any system that is composed of precise physical strikes to inflict optimal trauma to subdue or kill an opponent. 
 
-**Lock Picking (PER)** The craft of unlocking a lock by analyzing and manipulating the components of the lock divice without the original key.
+#### Deplomacy and Influence ####
+**Acting (CHA)** The work of an actor or actress, which is a person in theater, television, film, or any other story telling medium who tells the story by portraying a character and, usually, speaking or singing the written text or play.
+
+**Persuasion (CHA)** The practice of convincing someone to do or believe something.
+
+**Intimidation (CHA)** Frighten or overawe someone, especially in order to make them do what you want.
+
+#### Subversion ####
+**Escape (RFX)** The craft of evading capture, or extricating ones self from forced confinemnt or control.
+
+**Stealth (RFX)** The practice of cautious and surreptitious action or movement so as not to be seen or heard.
+
+**Lock Picking (RFX)** The craft of unlocking a lock by analyzing and manipulating the components of the lock divice without the original key.
+
+#### Athletics ####
+**Acrobatics (SPD)** The performance of extrordinary feats of balance, agility, and motor coordination. Diving, walking on a tight rope or balance beam, swinging on a trapeze, etc.
+
+**Climbing (SPD)** To scale a surface vertically using the hands and feet.
 
 **Swimming (SPD)** The ability to propel ones self through water (or other liquid-like surfaces) by natural means, without the aid of a solid surface or object.
+
+#### Deduction ####
+**Tracking (PER)** The craft of following tracks or clues left from physical movement through the environment.
+
+**Observation (PER)** The action or process of looking at something or someone carefully or in order to gain information.
+
+**Search (PER)** The practice and knowledge of systematically reviewing the contents of a container such as a room, box, or article of clothing.
 
 *See world content supplement for world specific skills*
 
@@ -109,7 +155,7 @@ Before a character can attempt to use a skill they must apply at least one point
 ## Character Creation Conventions ##
 The conventions used to roll up characters for your adventure will influence the feel of the adventure. Some methods are more Hard Core than others while some are down right campy. None of the methods you choose are necessarily bad or good just different. CCARPS is designed to be adaptive so that it can naturally support whatever style you and your group wish to play. We would like to provide some examples for you to think about, these are not to be considered an extensive list and by no means exhaustive.
 
-* **Hard Core:** this method will generally create characters that will require many hours to build and is not recommended for the feint of heart. For your Hard Core roll play, roll your dice according to your age chart and record them in the order they are rolled directly onto the character sheet. First roll = Strength, second = Dexterity, third = Constitution, fourth = Intelligence, and fifth = Wisdom. No re-rolls; limit the number of Oddities to five and require the sum of all oddities to = 0; limit the maximum starting skill points for any one skill to the associated Attribute's modifier.
+* **Hard Core:** this method will generally create characters that will require many hours to build and is not recommended for the faint of heart. For your Hard Core roll play, roll your dice according to your age chart and record them in the order they are rolled directly onto the character sheet. First roll = Strength, second = Dexterity, third = Constitution, fourth = Intelligence, and fifth = Wisdom. No re-rolls; limit the number of Oddities to five and require the sum of all oddities to = 0; limit the maximum starting skill points for any one skill to the associated Attribute's modifier.
 
 * **Fantasy:** this method will create characters that are moderately easy to play. It is a good choice if you like a serious story but moderately challenging game play. For Fantasy style, roll five sets of dice according to the Age Table, re-rolling all ones, and record them on the back of your character sheet. Assign each set according to your preference for the type of character you wish to play. Limit the number of Oddities to seven and the maximum starting skill points to two times the associated Attribute's modifier.
 
